@@ -1,0 +1,7 @@
+How to use git hub
+Basic commands in git hub
+How to create repositories
+Initialization commands
+Did some creating and deleting repositories
+log command 
+checkout command 
