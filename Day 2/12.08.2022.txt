@@ -1,7 +1,6 @@
-int i,j,n=3;
 Diamond program
 
-
+int i,j,n=3;
 for(i=0;i<=n;i+=2){
   for(j=n-i;j>1;  j--){
     System.out.print(" ");
