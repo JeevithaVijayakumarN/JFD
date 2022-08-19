@@ -9,8 +9,6 @@ public class Receive {
         Util util = new Util();
         util.valid();
         int newbal = bal + amount;
-        if (amount <= bal) {
             System.out.println(newbal);
-        }
     }
 }

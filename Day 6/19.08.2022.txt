@@ -1,0 +1,7 @@
+Topics Covered
+MYSQL
+DML
+DDL
+JDBC
+Prepare statement
+Database connectivity

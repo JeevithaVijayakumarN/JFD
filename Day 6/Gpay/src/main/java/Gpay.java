@@ -22,15 +22,13 @@ public class Gpay {
                     Viewbalance viewingbalance = new Viewbalance();
                     viewingbalance.viewbalance();
                 case 4:
-
                     System.exit(0);
                     break;
 
             }
+            menu.projectmenu();
 
         }
-
-
     }
 }
 
