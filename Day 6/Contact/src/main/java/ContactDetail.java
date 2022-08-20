@@ -1,16 +1,16 @@
-public class Contactdetails {
+public class ContactDetail {
     private int id;
     private String Name;
-    private int Number;
+    private long Number;
 
-    public Contactdetails(int id, String name, int number) {
+    public ContactDetail() {
 
+    }
 
-
-            this.id = id;
-            Name = name;
-            Number = number;
-
+    public ContactDetail(int id, String name, long number) {
+        this.id = id;
+        this.Name = name;
+        this.Number = number;
     }
 
     public int getId() {
@@ -29,13 +29,12 @@ public class Contactdetails {
         Name = name;
     }
 
-    public int getNumber() {
+    public long getNumber() {
         return Number;
     }
 
-    public void setNumber(int number) {
+    public void setNumber(long number) {
         Number = number;
     }
-
 
 }
