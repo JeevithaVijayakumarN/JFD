@@ -10,28 +10,34 @@ public class ToDoList {
             System.out.println("2.View notes");
             System.out.println("3.Delete notes");
             System.out.println("4.Exit");
+            System.out.println("Enter your choice: ");
             Scanner sc = new Scanner(System.in);
             int choice = sc.nextInt();
             switch (choice) {
                 case 1:
                     System.out.println("Enter notes");
-                    String newnotes = sc.next();
-                    notes.add(new Notes(notes.size()+1,newnotes));
+                    Scanner scan = new Scanner(System.in);
+                    String newnotes = scan.nextLine();
+                    notes.add(new Notes(notes.size() + 1 , newnotes));
                     System.out.println("Successfully added");
                     break;
                 case 2:
-                    if(notes.size()>0){
-                        notes.forEach((addedNotes-> System.out.println(addedNotes.getId()+addedNotes.getNotes())));
+                    if (notes.size() > 0) {
+                        notes.forEach((addedNotes -> System.out.println(addedNotes.getId() +" " + addedNotes.getNotes())));
                         System.out.println("Notes added");
-                    }else {
+                    } else {
                         System.out.println("Notes not available!!");
                     }
 
                     break;
                 case 3:
-                    if (notes.size()>0){
-                       int notesToBeDeletd = sc.nextInt();
-                        boolean ifexist = notes.stream().anyMatch(find ->(find.getId()==notesToBeDeletd));
+                    if (notes.size() > 0) {
+                        int notesToBeDeletd = sc.nextInt();
+                        boolean ifexist = notes.stream().anyMatch(find -> (find.getId() == notesToBeDeletd));
+                        notes.remove(notesToBeDeletd- 1);
+                        System.out.println("Deleted");
+                    } else {
+                        System.out.println("No such note:");
                     }
                     break;
                 case 4:

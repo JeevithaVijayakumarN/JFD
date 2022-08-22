@@ -11,7 +11,6 @@ public class PhoneContact {
             System.out.println("Enter your choice :");
             Scanner sc = new Scanner(System.in);
             int choice = sc.nextInt();
-
             switch (choice) {
                 case 1:
                     System.out.println("Enter name :");

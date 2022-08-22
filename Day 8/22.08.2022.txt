@@ -1,0 +1,17 @@
+Topics Covered
+Mini project using Java-Todo
+Spring Basics
+1.Tightly Coupled
+2.Loosely Coupled
+3.Component and Autowired
+4.Primary
+5.Constructor and Setter injection
+6.Autoviewing by name
+7.Qualifier
+8.Bean Scope
+9.Complex Scope
+10.Component Scan
+11.Life cycle of a bean
+12.CDI
+13.Without spring boot
+14.XML Configuration
