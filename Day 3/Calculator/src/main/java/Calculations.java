@@ -10,7 +10,7 @@ public class Calculations {
         return (a + b);
     }
 
-    public int sub() {
+    public  int sub() {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
@@ -19,21 +19,21 @@ public class Calculations {
 
     }
 
-    public int mul() {
+    public  int mul() {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         return (a * b);
     }
 
-    public int div() {
+    public  int div() {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         return (a / b);
     }
 
-    public int mod() {
+    public  int mod() {
 
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();

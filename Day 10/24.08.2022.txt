@@ -1,0 +1,18 @@
+1.JPA and Rest
+2.Repository annotation
+3.Authentication and Authorization
+4.Basic testing with postman
+5.Rest Controller
+	Stereotype
+	Annotation
+6.Actuator
+7.CRUD Application
+8.Profile specificproperties
+9.Memory Authentication
+10.Conditional and AutoConfiguration
+11.Repository annotation
+12.Spring Data
+	JPA
+	Rest
+13.Profiles and Logging
+14.Setter and Getter Injection
