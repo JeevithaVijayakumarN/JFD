@@ -1,8 +1,5 @@
 package com.nseit.spring.boot.todo.model;
-
 import lombok.*;
-
-
 @AllArgsConstructor
 @NoArgsConstructor
 @Data

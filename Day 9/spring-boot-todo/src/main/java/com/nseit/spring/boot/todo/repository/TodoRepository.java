@@ -9,5 +9,5 @@ import java.util.ArrayList;
 @Repository
 
 public class TodoRepository {
-    private ArrayList<Todo> todos = new ArrayList<Todo>();
+    private ArrayList<Todo> todos = new ArrayList<>();
 }

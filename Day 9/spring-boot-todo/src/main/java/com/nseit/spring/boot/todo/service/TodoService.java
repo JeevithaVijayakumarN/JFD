@@ -14,7 +14,6 @@ public class TodoService {
     TodoRepository todoRepository;
 
     public  void addTodo(Todo todo) {
-
         ArrayList<Todo> todos = todoRepository.getTodos();
         todos.add(todo);
     }
@@ -24,8 +23,6 @@ public class TodoService {
             System.out.println(todo.getId() + " - " +todo.getName() +
                     " Complete Status "+ (todo.isCompleted()?"yes":"no"));
         }
-
-
     }
 
     public void updateTodo(int id) {
@@ -35,9 +32,7 @@ public class TodoService {
                 break;
             }
         }
-
     }
-
     public void removeTodo(int id) {
         for (Todo todo : todoRepository.getTodos()) {
             if (id == todo.getId()) {

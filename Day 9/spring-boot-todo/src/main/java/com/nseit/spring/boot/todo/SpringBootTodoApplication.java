@@ -29,6 +29,7 @@ private TodoService todoService;
 		todoService.viewTodo();
 		todoService.updateTodo(1);
 		todoService.updateTodo(2);
+		todoService.removeTodo(1);
 
 
 
