@@ -1,0 +1,12 @@
+1.Spring Boot Jpa
+	java persistence API
+	Object Relation Mapping
+	Jpa entity manager
+	Jpa mapping
+2. Spring boot rest controller
+	Rest controller
+	RequestBody
+	RequestMapping
+
+Tasks:
+1.Entity relationship program using hibernate and mysql

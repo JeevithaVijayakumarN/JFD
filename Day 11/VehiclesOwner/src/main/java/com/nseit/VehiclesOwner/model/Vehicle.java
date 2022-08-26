@@ -15,5 +15,11 @@ public class Vehicle {
     public int id;
     public String vehicleName;
     private String vehicleModel;
+
     private Owner owner;
+
+    public Vehicle(String vehicleModel, Owner owner) {
+        this.vehicleModel = vehicleModel;
+        this.owner = owner;
+    }
 }
